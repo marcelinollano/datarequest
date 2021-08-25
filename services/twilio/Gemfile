@@ -1,0 +1,15 @@
+ruby '3.0.2'
+source 'https://rubygems.org'
+
+gem 'dotenv', require: 'dotenv/load'
+gem 'sinatra'
+gem 'sinatra-contrib', require: 'sinatra/json'
+gem 'twilio-ruby'
+gem 'puma'
+gem 'foreman'
+gem 'sequel'
+gem 'pg'
+
+group :development do
+  gem 'shotgun', git: 'https://github.com/delonnewman/shotgun.git'
+end

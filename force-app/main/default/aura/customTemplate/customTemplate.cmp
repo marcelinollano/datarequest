@@ -1,0 +1,26 @@
+<aura:component
+  implements="lightning:appHomeTemplate"
+  description="Custom 2 column layout with no header"
+>
+  <ltng:require styles="{!$Resource.custom}" />
+  <aura:attribute
+    name="left"
+    type="Aura.Component[]"
+    description="Left column"
+  />
+  <aura:attribute
+    name="right"
+    type="Aura.Component[]"
+    description="Right column"
+  />
+  <div>
+    <lightning:layout>
+      <lightning:layoutItem size="5" flexibility="auto" padding="around-small">
+        {!v.left}
+      </lightning:layoutItem>
+      <lightning:layoutItem size="7" flexibility="auto" padding="around-small">
+        {!v.right}
+      </lightning:layoutItem>
+    </lightning:layout>
+  </div>
+</aura:component>

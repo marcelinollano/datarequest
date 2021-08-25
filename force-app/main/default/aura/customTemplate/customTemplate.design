@@ -1,0 +1,10 @@
+<design:component label="Custom Template">
+  <flexipage:template>
+    <flexipage:region name="left" defaultWidth="Medium" />
+    <flexipage:region name="right" defaultWidth="Medium" />
+  </flexipage:template>
+  <design:supportedFormFactors>
+    <design:supportedFormFactor type="Large" />
+    <design:supportedFormFactor type="Small" />
+  </design:supportedFormFactors>
+</design:component>

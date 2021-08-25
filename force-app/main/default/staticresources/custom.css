@@ -1,0 +1,8 @@
+[app_flexipage-header_header-host] {
+  display: none !important;
+}
+
+.slds-brand-band {
+  background-image: none !important;
+  background-color: #B3C4DC !important;
+}

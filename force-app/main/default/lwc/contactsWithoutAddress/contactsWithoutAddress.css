@@ -1,0 +1,22 @@
+:host {
+  --lwc-colorTextButtonDefaultDisabled: #999;
+}
+
+.header {
+  margin-top: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  float: left;
+}
+
+.title {
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.contact {
+  padding: 6px 0;
+  border-top: 1px solid #eee;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say voice="Polly.Matthew" language="en-US">
+    This is an automated call from Dunder Mifflin Paper Company.
+  </Say>
+  <Play><%= ENV['APP_URL'] %>/join.wav</Play>
+  <Say voice="Polly.Matthew" language="en-US">
+    Hello <%= @name %>,
+    We hope you are having a great day.
+    We are calling you because we do not have your address on file. 
+    Please tell us after the beep.
+  </Say>
+  <Play><%= ENV['APP_URL'] %>/beep.wav</Play>
+  <Gather action="<%= ENV['APP_URL'] %>/response?token=<%= ENV['APP_TOKEN'] %>" 
+          speechModel="phone_call"
+          language="en-US"
+          speechTimeout="auto"
+          input="speech"
+          method="POST" />
+</Response>

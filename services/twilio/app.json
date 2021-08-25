@@ -1,0 +1,6 @@
+{
+  "name": "Twilio",
+  "description": "Manages Twilio requests and responses.",
+  "success_url": "/",
+  "addons": ["heroku-postgresql"]
+}

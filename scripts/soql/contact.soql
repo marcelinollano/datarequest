@@ -1,0 +1,5 @@
+SELECT Id, FirstName, LastName, Title, Email, MailingAddress
+FROM Contact
+WHERE MailingAddress = NULL
+ORDER BY Name
+LIMIT 30

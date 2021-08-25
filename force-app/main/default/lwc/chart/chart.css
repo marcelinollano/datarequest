@@ -1,0 +1,53 @@
+.chart {
+  padding: 15px;
+}
+
+.header {
+  margin-top: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  float: left;
+}
+
+.icon-legend {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 99px;
+  margin-right: 5px;
+  vertical-align: bottom;
+}
+
+.icon-pending {
+  background-color: rgb(255, 99, 132);
+}
+
+.icon-completed {
+  background-color: rgb(128, 143, 219);
+}
+
+.legend {
+  margin: 20px 0;
+  display: block;
+}
+
+.legend ul {
+  text-align: center;
+}
+
+.legend ul li {
+  margin-right: 40px;
+  vertical-align: bottom;
+  display: inline-block;
+}
+
+.title {
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.doughnut {
+  padding: 10px;
+}
