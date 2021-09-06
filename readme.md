@@ -2,7 +2,7 @@
 
 Sample project that uses Salesforce Functions to get addresses via phone.
 
-[Watch the 60 seconds demo](https://github.com/marcelinollano/data-request/raw/main/media/demo.mp4)
+[⚡️ Watch the 60 seconds demo](https://github.com/marcelinollano/data-request/raw/main/media/demo.mp4)
 
 ![Screenshot](media/screenshot.png)
 
