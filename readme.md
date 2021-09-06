@@ -1,12 +1,14 @@
 # Data Request
 
-This is a sample project that uses Salesforce Functions to fetch contact addresses.
+Sample project that uses Salesforce Functions to get addresses via phone.
 
-[Watch the 60 seconds demo](media/demo.mp4)
+[Watch the 60 seconds demo](https://github.com/marcelinollano/data-request/raw/main/media/demo.mp4)
 
 ![Screenshot](media/screenshot.png)
 
 ## Setup
+
+The setup has 3 pieces: the Lightning app running on the Salesforce Org, the Function itself running on the compute environment, and the Service that deals with Twilio on Heroku.
 
 ### 1. Lightning application
 
@@ -53,7 +55,7 @@ sfdx force:org:open -u scratch
 
 Search for `Data Request` from the waffle menu and voilà!
 
-### Function
+### 2. Function
 
 Next we need to setup the Function. Start by login in:
 
@@ -80,7 +82,7 @@ At this point we are ready to deploy our Function:
 sfdx project:deploy:functions -o scratch
 ```
 
-### Service
+### 3. Service
 
 The last piece is deploying our Twilio service. This is running on [Heroku](https://heroku.com), so let's login:
 
