@@ -112,4 +112,4 @@ Okay, finally we deploy to Heroku:
 git subtree push --prefix services/twilio heroku main
 ```
 
-You should not be able to click `Request via Phone` from the Lightning application andthe Function will send a call and save the transcript into Salesforce. Pretty cool!
+You should not be able to click `Request via Phone` from the Lightning application and the Function will send a call and save the transcript into Salesforce. Pretty cool!
